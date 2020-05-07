@@ -1,0 +1,248 @@
+.navbar{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+.logo{
+    /* flex-basis: 20%; */
+    cursor: pointer;
+}
+
+.icon{
+    background-color:rgb(37, 119, 185);
+    border: 1px solid steelblue;
+    
+}
+
+nav{
+    flex: 2;
+    text-align: left;
+    padding: 1px 15px;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+    cursor: pointer;
+    
+}
+
+button{
+    color:green;
+    
+}
+marquee{
+    background-color:rgb(37, 119, 185);
+}
+
+.footer{
+    background-color: black;
+    border: 1px solid black;
+}
+p{
+    color: grey;
+}
+
+
+
+
+/* .icon{
+    background-color:rgb(110, 143, 165);
+    border: 1px solid steelblue;
+    
+    
+} */
+
+.m{
+    /* background-color: blue; */
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1px;
+    text-indent: 4%;
+    padding: 50px;
+    width: 190px;
+    height: 350;
+    float: left;
+    margin: 0px auto;
+    
+    
+    
+}
+
+.row{
+    border: 1px solid;
+    background-color: blue;
+}
+.we,.are{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.online,.wel,.me{
+    text-indent: 5%;
+    line-height: 1px;
+    float: left;
+    margin: auto;
+    text-align: center;
+    width: 400px;
+    height: 200px;
+    
+    padding-block-start: 50px;
+}
+
+.DK,.RO,.ED{
+    text-indent: 5%;
+    line-height: 1px;
+    float: left;
+    margin: auto;
+    text-align: center;
+    width: 400px;
+    height: 200px;
+    
+}
+.upcoming{
+   margin: auto;
+   float: left;
+   padding: 25px;
+   width: 250px;
+   height: 150px;
+   margin: auto;
+   flex-wrap: wrap;
+   display: flex;
+   flex-direction: row;
+
+}
+.Hep,.HS,.IT,.th{
+
+    text-indent: 20%;
+    line-height: 1px;
+    float: left;
+    
+    text-align:justify;
+    width: 300px;
+    height: 100px;
+    
+}
+.mission,.up{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 890px;
+    margin: auto;
+    text-align: justify;
+    
+}
+
+.Fami{
+    /* background-color: blue; */
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1px;
+    text-indent: 4%;
+    padding: 50px;
+    width: 190px;
+    height: 300;
+    float: left;
+    margin: 0px auto;
+
+}
+
+
+
+.para{
+    width: 65%;
+    border: white solid 1px;
+    margin: 0px auto;
+    text-align: justify;
+    padding-bottom: 1px;
+    
+  
+}
+.fo,.con{
+    background-color: gray;
+    text-indent: 3%;
+    line-height: 1px;
+    float: left;
+    margin: auto;
+    text-align:left;
+    width: 670px;
+    height: 350px;
+    
+    padding-block-start: 50px;
+    padding-left: 20px;
+    font-size: 12px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.order{
+    padding-top: 20px;
+    justify-content: space-around;
+    line-height: 10px;
+}
+.last{
+    padding-top: 350px;
+
+    
+}
+
+
+
+li {
+    display: inline;
+}
+
+/* .Nav{
+    width: 45%;
+   margin: 0px auto;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: top 20px; ;
+   
+} */
+
+.home:hover{
+    background-color: gray;
+    border-radius: 50px;
+}
+.dropdown:hover{
+    background-color:gray;
+    border-radius: 50px;
+}
+
+/* .logo{
+    flex-basis: 20%;
+    cursor: pointer;
+    
+    padding-left: 30px;
+} */
+
+div.gallery {
+    margin: auto;
+    border: 1px solid #ccc;
+    float: left;
+    width: 250px;
+    padding: 0px;
+  }
+  
+
+.food:focus{
+    background-color: blue;
+}
+  
+  div.gallery img {
+    width: 300px;
+    height: auto;
+    margin: auto;
+    
+  }
+  
+
